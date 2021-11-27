@@ -1,0 +1,120 @@
+body {
+    /*width: 940px;*/
+    width: 80%;/* deixa o site responsivo*/
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvica", "Lucida Grande", Sans-Serif;
+    color: #3D3D3D;
+    
+}
+/* Resposnsivo telas */
+@media (max-width: 850px) {
+    
+    .contato_secao {
+        display: block;
+        margin-left:1em;
+}
+    
+@media (max-width: 622px) {
+    .familia-tupfeln {
+        float: none;
+        margin: auto;
+}
+        
+@media (max-width: 446px) {
+    .contato_subtitulo {
+        display: block;
+        margin-bottom: 0;
+}
+@media (max-width: 342px) {
+    .contato_info-descricao {
+        display: block;
+        margin-left: 1em;
+}
+                
+            }
+        }
+    
+    }
+}
+/* Fim do código responsivo telas */
+
+.titulo {
+    background-color: #E1EDF2;
+    padding: 10px;
+    font-size:  32px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+
+}
+
+figure {
+    text-align: center;
+    margin: 30px;
+    padding:15px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+figcaption {
+    margin-top: 10px;
+}
+
+.matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.familia-tupfeln {
+    width: 275px;
+    float: right;
+}
+
+figure img {
+    width: 100%;
+}
+
+.contato_subtitulo {
+    display: inline;
+}
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+.contato__secao--telefone {
+    margin-left: 32px;
+}
+
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_info-titulo,
+.contato_info-descricao {
+    display: inline;
+}
+
+.contato_info-descricao {
+    margin-left: 10px;
+}
+.rodape {
+    padding: 1.75em 0;
+    
+    font-size: 1.1rem;
+    width: 6em;
+}
+.rodape_logo {
+    width: 6em;
+}
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
+}
